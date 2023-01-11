@@ -1,0 +1,41 @@
+body {
+    background:url(images/fon.jpg);
+
+}
+.header {
+    display: block; 
+    background-color: black;
+    width: 100%;
+    height: 13%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+    box-shadow: 0 0 5px 10px
+}
+.logo {
+    color: rgb(205, 189, 185);
+    font-family: 'Playfair Display', serif;
+    font-size: 400%;
+    margin-top: 0%;
+    margin-left: 3%;
+    position: relative;
+    z-index: 19;
+}
+.menu {
+  display:flex;  
+  list-style:none;
+}
+.menu a {
+    color: rgb(205, 189, 185);
+    padding: 15px;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-size: 150%;
+}
+@media screen and (max-width: 980px) {
+
+}
+@media screen and (max-width: 650px) {
+
+}
